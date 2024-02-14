@@ -1,13 +1,18 @@
-import {Html, Head, Main, NextScript} from 'next/document'
+// pages/_document.js
+import { Html, Head, Main, NextScript } from 'next/document';
 
-export default function Document() {
+const MyDocument = () => {
+    // Customizations for your document go here
+
     return (
-        <Html lang="en">
-            <Head/>
+        <Html>
+            <Head />
             <body>
-            <Main/>
-            <NextScript/>
+            <Main />
+            <NextScript />
             </body>
         </Html>
-    )
-}
+    );
+};
+
+export default MyDocument;

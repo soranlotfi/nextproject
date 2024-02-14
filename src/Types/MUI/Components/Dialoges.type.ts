@@ -1,3 +1,4 @@
+/*
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
 
 export interface DialogTitleProps {
@@ -14,4 +15,4 @@ export interface socialMediaInterface {
     caption?: string,
     address?: string,
     link?: string
-}
+}*/
