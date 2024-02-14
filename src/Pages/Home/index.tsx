@@ -9,11 +9,17 @@ const Home = ()=>{
         setMode(theme.palette.mode)
     }, [theme.palette.mode]);
     return(
-        <Grid container className={"hello world"} bgcolor={`primary.${mode}`}>
+      /*  <Grid container className={"hello world"} bgcolor={`primary.${mode}`}>
             <Grid item sx={{background:`secondary.${mode}`}}>
             <Button color={`secondary`} sx={{backgroundColor:`secondary.${mode}`}}>asjkdbg</Button>
             </Grid>
+        </Grid>*/
+
+    <Grid container bgcolor={`secondary}`}>
+        <Grid item sx={{background:`secondary}`}}>
+            <Button color={`secondary`} sx={{backgroundColor:`secondary}`}}>asjkdbg</Button>
         </Grid>
+    </Grid>
     )
 }
 
